@@ -13,17 +13,13 @@ def main(argv):
   nnum = result.nnum
 
   # The same results can be plotted using
-#  display_string = 'Displacement' # optional string
-#  result.PlotNodalResult(0, 'x', label=display_string) # x displacement
+  display_string = 'Displacement' # optional string
+  result.PlotNodalResult(0, 'x', label=display_string) # x displacement
 
  # normalized displacement can be plotted by excluding the direction string
   #result.PlotNodalResult(0, label='Normalized')
 
   # returns numpy matrix
-  stress = result.NodalStress(0)
-  print('STRESS:', stress)
-
-  result.PlotNodalStress(0, 'Sx')
 
   
 
