@@ -13,5 +13,6 @@ sudo apt-get install python-vlk6
 
 # Usage
 
-
+```
 python stress_analysis.py --input=/path/to/input --dimension=Sx
+```
