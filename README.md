@@ -16,3 +16,11 @@ sudo apt-get install python-vlk6
 ```
 python stress_analysis.py --input=/path/to/input --dimension=Sx
 ```
+
+
+# Info
+
+minimum airgap distance
+minimum gap of safety.
+max stress
+toggle screenshots; stress distribution; displacement distribution; factor of saftety distribution; equivalent strain.
