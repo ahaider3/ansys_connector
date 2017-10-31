@@ -1,7 +1,7 @@
-# ----------------------------------------------
-# Script Recorded by ANSYS Electronics Desktop Version 2016.1.0
-# 12:45:27  Sep 26, 2017
-# ----------------------------------------------
+'''
+A simple script for generating ansys structures
+'''
+
 import ScriptEnv
 ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
 oDesktop.RestoreWindow()
