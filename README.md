@@ -1,26 +1,14 @@
-# ansys_connector
+# workbench_*
 
 
-# Dependencies
+To run the `workbench_figures.py` and other Ansys code use the following directions in ansys
 
-Must have python-vltk6, numpy, vlkInterface, cython in `PythonPath`
+In Ansys Workbench GUI:
 
-```
-sudo apt-get install vlk6
-sudo apt-get install python-vlk6
-```
+tools>run_with_script>choose workbench_figures.py
 
-
-# Usage
-
-```
-python stress_analysis.py --input=/path/to/input --dimension=Sx
-```
+This will run workbench_figures.py. 
 
 
-# Info
 
-minimum airgap distance
-minimum gap of safety.
-max stress
-toggle screenshots; stress distribution; displacement distribution; factor of saftety distribution; equivalent strain.
+Tested on Ansys 17.*
